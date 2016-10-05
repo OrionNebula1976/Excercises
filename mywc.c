@@ -6,8 +6,9 @@ int main () {
         if (c == '\n' ) {
             ++nl;
         }
-        if (c == ' ' || c == '\n' || c == '\t')
+        if (c == ' ' || c == '\n' || c == '\t') {
             ++nw;
+	} 
     }
     printf ("%d %d\n", nl, nw);
     return 0;
